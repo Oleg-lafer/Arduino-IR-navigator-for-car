@@ -22,19 +22,12 @@ void loop() {
   irsend.sendSony(hexTx, 12);
   
     //print the values with to plot or view
-  Serial.print("RVx: ");
-  Serial.print(RVx);
-  Serial.print(" x: ");
-  Serial.print(xTx);
-
-  Serial.print("   RVy: ");
-  Serial.print(RVy);
-  Serial.print(" y: ");
-  Serial.print(yTx);
+  Serial.print("RVx: " + String(RVx) + " x: " + String(xTx));
+  Serial.print("  RVy: " + String(RVy) + " y: " + String(yTx));
 
   Serial.print("   TX: ");
   Serial.print(hexTx, HEX);
 
   Serial.println("");
-  delay(3000);
+  delay(250);
 }
