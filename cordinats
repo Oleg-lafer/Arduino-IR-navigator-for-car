@@ -1,0 +1,48 @@
+void setup() {
+  // Start serial communication at 9600 baud rate
+  Serial.begin(9600);
+  
+  // Print the grid with points at the specified coordinates
+  printGridWithPoints(coords);
+}
+
+void printGridWithPoints(int coords[5][2]) {
+  const int size = 20;  // The size of the grid (20x20)
+  
+  // Loop through each row
+  for (int y = size / 2; y >= -size / 2; --y) {
+    // Loop through each column
+    for (int x = -size / 2; x <= size / 2; ++x) {
+      bool printed = false;
+
+      // Check if the current coordinates match any of the given coordinates
+      for (int i = 0; i < 5; ++i) {
+        if (x == coords[i][0] && y == coords[i][1]) {
+          Serial.print(char('A' + i));  // Print 'A' to 'E' based on the index
+          printed = true;
+          break;
+        }
+      }
+
+      // Print the origin and axes
+      if (!printed) {
+        if (x == 0 && y == 0)
+          Serial.print("O");  // Origin
+        else if (y == 0)  // X-axis
+          Serial.print(x);
+        else if (x == 0)  // Y-axis
+          Serial.print(y);
+        else
+          Serial.print(".");  // Empty space
+      }
+
+      // Add space between grid elements for better readability
+      Serial.print(" ");
+    }
+    Serial.println();  // Move to the next line after each row
+  }
+}
+
+void loop() {
+  // Nothing to do here, the grid is printed in setup()
+}
