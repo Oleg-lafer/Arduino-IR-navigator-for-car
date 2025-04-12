@@ -2,7 +2,7 @@
 
 <div style="display: flex;">
   <img src="car-and-IR-receiver_1.jpg" width="25%">
-  <img src="car-and-IR-receiver_2.jpg" width="43%">
+  <img src="car-and-IR-receiver_2.jpg" width="45%">
 </div>
 
 
