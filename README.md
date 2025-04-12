@@ -1,7 +1,7 @@
 # Arduino Robot Control with IR Remote
 
 <img src="car-and-IR-receiver_1.jpg" width="25%">
-<img src="car-and-IR-receiver_1.jpg" width="25%">
+<img src="car-and-IR-receiver_2.jpg" width="25%">
 
 ## Overview
 This project implements an Arduino-based robot car control system using an IR remote. The code leverages a joystick to send movement commands over infrared (IR) signals and decodes them on the receiver side to control the robot's motors.
