@@ -1,13 +1,15 @@
 # Arduino Robot Control with IR Remote
 
+## Overview
+Remote-controlled Arduino robot using C++ firmware, a joystick, and IR communication, utilizing the IRremote library for signal transmission and PWM control to drive DC motors, with serial monitoring for debugging and real-time data visualization.
+
 <div style="display: flex;">
   <img src="car-and-IR-receiver_1.jpg" width="25%">
   <img src="car-and-IR-receiver_2.jpg" width="44%">
 </div>
 
 
-## Overview
-This project implements an Arduino-based robot car control system using an IR remote. The code leverages a joystick to send movement commands over infrared (IR) signals and decodes them on the receiver side to control the robot's motors.
+
 
 ---
 
