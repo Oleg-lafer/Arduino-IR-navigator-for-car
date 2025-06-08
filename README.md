@@ -1,11 +1,21 @@
-Arduino Robot Control with IR Remote
-Overview
-An Arduino-based robotic car system programmed in C++, combining joystick control, IR communication, and PWM-driven DC motors for responsive movement. The project leverages the IRremote library for remote signal decoding and includes serial monitoring for debugging and real-time data visualization.
+Certainly! Here's a polished and professional version of your project description, suitable for GitHub and academic presentation:
 
-Extension: Coordinate-Based Autonomous Navigation
-Extension Repository
-This enhanced module allows the robot to record a user-defined path using joystick input and replay it autonomously. Coordinates are filtered and stored based on distance thresholds, then translated into motor actions using geometric path calculations. A simulated traffic light system (LEDs and buzzer) signals movement phases, mimicking real-world conditions.
-The project demonstrates concepts in embedded systems, signal filtering, motor control, and autonomous navigation.
+---
+
+# Arduino Robot Control with IR Remote
+
+## Overview
+
+An Arduino-based robotic car system programmed in C++, combining joystick control, IR communication, and PWM-driven DC motors for responsive movement. The project leverages the **IRremote** library for remote signal decoding and includes **serial monitoring** for debugging and real-time data visualization.
+
+## Extension: Coordinate-Based Autonomous Navigation
+
+[Extension Repository](https://github.com/Oleg-lafer/Arduino-coordinate-navigator)
+This enhanced module allows the robot to **record a user-defined path** using joystick input and replay it autonomously. Coordinates are filtered and stored based on distance thresholds, then translated into motor actions using geometric path calculations. A **simulated traffic light system** (LEDs and buzzer) signals movement phases, mimicking real-world conditions.
+The project demonstrates concepts in **embedded systems, signal filtering, motor control, and autonomous navigation**.
+
+ me know if you’d like a Hebrew version as well or an even shorter summary.
+
 <div style="display: flex;">
   <img src="car-and-IR-receiver_1.jpg" width="25%">
   <img src="car-and-IR-receiver_2.jpg" width="44%">
