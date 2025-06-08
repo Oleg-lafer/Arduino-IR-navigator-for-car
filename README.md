@@ -10,6 +10,7 @@ An Arduino-based robotic car system programmed in C++, combining joystick contro
 
 ## Extension: Coordinate-Based Autonomous Navigation
 https://github.com/Oleg-lafer/Arduino-coordinate-navigator
+<br />
 This enhanced module allows the robot to **record a user-defined path** using joystick input and replay it autonomously. Coordinates are filtered and stored based on distance thresholds, then translated into motor actions using geometric path calculations. A **simulated traffic light system** (LEDs and buzzer) signals movement phases, mimicking real-world conditions.
 
 <div style="display: flex;">
