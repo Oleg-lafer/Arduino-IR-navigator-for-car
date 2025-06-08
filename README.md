@@ -1,11 +1,11 @@
-# Arduino Robot Control with IR Remote
+Arduino Robot Control with IR Remote
+Overview
+An Arduino-based robotic car system programmed in C++, combining joystick control, IR communication, and PWM-driven DC motors for responsive movement. The project leverages the IRremote library for remote signal decoding and includes serial monitoring for debugging and real-time data visualization.
 
-## Overview
-Remote-controlled Arduino robot using C++ firmware, a joystick, and IR communication, utilizing the IRremote library for signal transmission and PWM control to drive DC motors, with serial monitoring for debugging and real-time data visualization.<br />
-Extension: https://github.com/Oleg-lafer/Arduino-coordinate-navigator
-<br />
-This project features an Arduino-based robotic car that records a user-defined path via joystick input and autonomously replays it using motor control and geometric path calculations. The system filters joystick signals, stores key points based on distance thresholds, and translates them into motor commands. A simulated traffic light with LED signals and buzzer enhances realism. The project showcases embedded systems, motion control, and real-time signal processing.
-
+Extension: Coordinate-Based Autonomous Navigation
+Extension Repository
+This enhanced module allows the robot to record a user-defined path using joystick input and replay it autonomously. Coordinates are filtered and stored based on distance thresholds, then translated into motor actions using geometric path calculations. A simulated traffic light system (LEDs and buzzer) signals movement phases, mimicking real-world conditions.
+The project demonstrates concepts in embedded systems, signal filtering, motor control, and autonomous navigation.
 <div style="display: flex;">
   <img src="car-and-IR-receiver_1.jpg" width="25%">
   <img src="car-and-IR-receiver_2.jpg" width="44%">
